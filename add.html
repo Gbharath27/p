@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Upload File</title>
+<link rel="stylesheet" type="text/css" href="sea.css">
+</head>
+<form method=POST action="uploadcar.php">
+<body bgcolor="grey" width="93%">
+<div style="margin-left:100px;border:2px solid black;width:500px;height:500px;float:left;">
+<i><table  width="" cellspacing="5" >
+<marquee><h2><i>Upload Details</h2></marquee>
+<tr>
+<td>  
+<h1><i>Select Type Of Car</h1>
+</td>
+<td>
+<select name="type">
+<option value=Jan>4-seater</option>
+<option value=Feb>6-seater</option>
+<option value=Mar>7-seater</option></select></td></tr>
+<tr>
+<td>
+<h1><i>Enter Car Name</h1>
+</td>
+<td>
+<input type="text" name="carname" maxlength="25" required placeholder="car name"  size="30"/>
+</td>
+</tr>
+<tr>
+<td>
+<h1><i>Enter Car Number</h1>
+</td>
+<td>
+<input type="text" name="carno"  placeholder="product number" required size="30"/>
+</td>
+</tr>
+<tr>
+<td>
+<h1> <i>Upload car photo</i></h1>
+</td>
+<td>
+<input type="file" name="carphoto" maxlength="25"   size="30"/>
+</td>
+</tr>
+<tr><td>
+<h1><i>House number</h1>
+</td>
+<td>
+<input type="number" name="houseno" placeholder="house number" maxlength="6" required></td></tr>
+<tr><td>
+<h1><i>enter city</h1>
+</td>
+<td>
+<input type="text" name="city" placeholder="city" maxlength="18" required></td></tr>
+
+<tr><td>
+<h1><i>Postal Code</h1>
+</td>
+<td>
+<input type="number" name="postal" placeholder="postal code" maxlength="6" required></td></tr>
+</table>
+</div>
+<div style="margin-left:100px;border:2px solid black;width:500px;height:500px;float:left;">
+<table  width="" cellspacing="5" >
+<marquee><h2><i>Contact Details</h2></marquee>
+<tr>
+<td>
+<h1><i>Enter First Name</h1></td>
+<td>
+<input type="text" name="fn" maxlength="25" required placeholder="first name"  size="30"/></td></tr>
+<tr><td>
+<h1><i>Enter Last Name</h1></td>
+<td>
+<input type="text" name="ln" maxlength="25" required placeholder="last name"  size="30"/></td></tr>
+<tr>
+<td><h1><i>Enter Phone Number</h1></td>
+<td>
+<input type="number" name="pn" maxlength="10" required placeholder="phone number"  size="30"/></td></tr>
+<tr><td><h1><i>Upload Your Photo</i></h1></td><td><input type="file" name="yp" maxlength="25" required  size="30"/></td></tr>
+<tr><td align="center">
+<input type="submit"  name="submit" value="submit"><br><br><br></td></tr>
+</table>
+</div>
+<form>
+</body>
+</html>
